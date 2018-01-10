@@ -7,6 +7,9 @@
 #include <cstdint>
 #include <initializer_list>
 
+const char CRYPTONOTE_NAME[] = "Mollycoin";
+set_property(TARGET daemon PROPERTY OUTPUT_NAME "Mollycoind")
+
 namespace CryptoNote {
 namespace parameters {
 
