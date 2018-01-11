@@ -60,3 +60,6 @@ namespace CryptoNote {
     return !carry;
   }
 }
+
+uint64_t baseReward = (m_moneySupply - alreadyGeneratedCoins) >> m_emissionSpeedFactor;
+
