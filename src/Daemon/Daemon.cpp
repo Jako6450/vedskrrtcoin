@@ -51,7 +51,6 @@ namespace
 
 bool command_line_preprocessor(const boost::program_options::variables_map& vm, LoggerRef& logger);
 
-Mollycoind --print-genesis-tx
 
 void print_genesis_tx_hex() {
   Logging::ConsoleLogger logger;
