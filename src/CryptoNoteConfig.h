@@ -125,6 +125,9 @@ struct CheckpointData {
 #ifdef __GNUC__
 __attribute__((unused))
 #endif
+  
+  const int P2P_DEFAULT_PORT = 2452;
+const int RPC_DEFAULT_PORT = 2452;
 
 // You may add here other checkpoints using the following format:
 // {<block height>, "<block hash>"},
